@@ -4,12 +4,13 @@
 
 .container {
   max-width: 1170px;
-  margin: 0px auto; }
+  margin: 0px auto;
+  padding: 0px 15px; }
 
-.container__header {
+.awesome__header {
   margin: 0px 0px 67px 0px; }
 
-.container__title {
+.awesome__title {
   margin: 0px 0px 30px 0px; }
 
 .title {
@@ -25,15 +26,17 @@
   
     .title:after {
       content: '';
-      position: absolute;
+      /* position: absolute; */
       width: 64px;
       bottom: 0;
       height: 2px;
-      left: 50%;
+      /* left: 50%; */
       background-color: #D98943;
-      margin: 0px 0px 0px -25px; }
+      /* margin: 0px 0px 0px -25px;  */
+      
+    }
 
-.container__subtitle {
+.awesome__subtitle {
   max-width: 563px;
   font-size: 14px;
   font-weight: normal;
