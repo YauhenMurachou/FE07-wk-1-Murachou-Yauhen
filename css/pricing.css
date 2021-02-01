@@ -43,8 +43,8 @@
     line-height: 40px;
     margin: 0 15px;}
 
-li {
-    border: 2px solid #E5E5E5;}
+.space {
+    border-bottom: 2px solid #E5E5E5;}
 
 .pricing__name { 
     font-weight: 700;
@@ -52,7 +52,8 @@ li {
     line-height: 51px;
     color: #fff;
     background-color: #333333;
-    font-family: 'Raleway', sans-serif;}
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 2px solid #E5E5E5;}
     
  .pricing__price{ 
     font-weight: 700;
@@ -60,13 +61,15 @@ li {
     font-size: 35px;
     line-height: 100px;
     color: #fff;
-    background-color: #333333;}
+    background-color: #333333;
+    border-bottom: 2px solid #E5E5E5;}
 
  .pricing__slogan{ 
     font-weight: 600;
     color: rgba(255, 255, 255, 0.5);
     background-color: #333333;
-    line-height: 60px;}
+    line-height: 60px;
+border-bottom: 2px solid #E5E5E5;}
 
 li:hover{
 	background-color: #D98943;}
