@@ -1,0 +1,69 @@
+.axure{
+	font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 14px;
+	width: 100%;
+	background: url("../img/bg/background\ 1.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	padding-bottom: 38px;
+		}
+
+	.axure::after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	background-color: rgba(0, 0, 0, 0.55);}
+
+	.title-block-axure {
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 42px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 58px 0px 0px 0px;
+	color: #FFFFFF;
+	font-family: Raleway, sans-serif; }
+
+.title-block-axure:after {
+	content: '';
+	width: 64px;
+	bottom: 0;
+	height: 2px;
+	background-color: #FFFFFF;;
+	margin: 34px auto;
+	display:block;}
+
+.axure__subtitle{
+	margin-bottom: 57px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 19px;
+	font-family: Raleway;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	letter-spacing: 0em;
+		}
+
+.axure__link{
+	margin: 0 auto 0 auto;
+	text-align: center;
+	max-width: 135px;
+	border: 1px solid #FFFFFF;
+		}
+
+.axure__download{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 40px;
+	letter-spacing: 0em;
+}

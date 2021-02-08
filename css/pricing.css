@@ -1,7 +1,7 @@
 .pricing{
     font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
-    background-color: #E5E5E5;}
+    background-color:#E5E5E5;}
 
 .title-block {
     font-size: 36px;
@@ -38,7 +38,7 @@
 .pricing__list {
     text-align: center;
     width: 340px;
-    background-color: #fff;
+    background-color:#FFFFFF;
     color: #86878B;
     line-height: 40px;
     margin: 0 15px;}
