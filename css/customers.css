@@ -59,7 +59,8 @@ padding: 10px;
 position: relative;
 }
 
-.triangle{
+.customers__statement::after{
+		content: '';
 		width: 0; 
 		height: 0; 
 		border-left: 8.5px solid transparent; 
@@ -72,18 +73,23 @@ position: relative;
 }
 
 .customers__photo{
-	background-image: url(../img/icons/dicaprio.jpeg);
-	background-repeat: no-repeat;
-	display: inline-block;
+	/* background-image: url(../img/icons/dicaprio.jpeg);
+	background-repeat: no-repeat; */
+	display: inline-flex;
+	justify-content: center;
 	width: 70px;
 	height: 70px;
 	border-radius: 50%;
 	overflow: hidden;
-	background-size: cover;
-	vertical-align: bottom;
-	/* margin-right: 15px; */
+	/* background-size: cover; */
+	/* vertical-align: bottom; */
+		/* margin-right: 15px; */
 	margin: 22px 45px 0 45px;
 }
+
+ /* .customers__photo__img{
+	margin: 0px auto;
+} */
 
 .customers__name{
 	display: inline-block;
