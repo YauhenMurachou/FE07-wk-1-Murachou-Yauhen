@@ -2,11 +2,11 @@
 	font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 15px;
 	background: #000000;
-	position: fixed;
+	/* position: fixed;
 	width: 100%;
 	top: 0;
 	left: 0;
-	z-index: 2;
+	z-index: 2; */
 }
 .header__wrapper{
 	display: flex;
@@ -23,7 +23,7 @@
 	margin-top: 25px;
 	margin-bottom: 22px;
 	display: flex;
-}
+	}
 
 .header__item{
 	font-size: 15px;
@@ -35,8 +35,8 @@
 	margin-left: 48px;
 	color: #FFFFFF;
 	}
-	.header__item:first-child{
-		margin-left: 0;
+.header__item:first-child{
+	margin-left: 0;
 	}
 .header__link{
 	text-decoration: none;
