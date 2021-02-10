@@ -1,0 +1,30 @@
+.header{
+	font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 15px;
+	background: #000000;
+}
+.header__wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+.header__logo{
+	display: flex;
+	width: 68px;
+	height: 31px;
+	margin-top: 20px;
+	margin-bottom: 18px;
+}
+.header__list{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.header__item{
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 20px;
+	text-align: center;
+	color: #FFFFFF;
+	display: inline;
+
+}

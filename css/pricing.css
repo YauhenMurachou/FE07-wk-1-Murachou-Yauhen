@@ -71,5 +71,8 @@
     line-height: 60px;
 border-bottom: 2px solid #E5E5E5;}
 
-li:hover{
+.pricing__name:hover,
+.pricing__price:hover,
+.pricing__slogan:hover,
+.space:hover{
 	background-color: #D98943;}
