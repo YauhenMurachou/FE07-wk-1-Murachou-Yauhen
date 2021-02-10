@@ -13,7 +13,7 @@
 	justify-content: space-between;
 }
 .header__logo{
-	display: flex;
+	display: inline-block;
 	width: 68px;
 	height: 31px;
 	margin-top: 20px;
@@ -23,7 +23,9 @@
 	margin-top: 25px;
 	margin-bottom: 22px;
 	display: flex;
-	}
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
 
 .header__item{
 	font-size: 15px;
@@ -34,21 +36,23 @@
 	display: inline-block;
 	margin-left: 48px;
 	color: #FFFFFF;
-	}
+}
+
 .header__item:first-child{
 	margin-left: 0;
-	}
+}
+
 .header__link{
 	text-decoration: none;
 	color: #FFFFFF;
 	transition: all 0.3s;
 	display: inline-block;
 	border-bottom: 2px solid transparent;
-		}
+}
 
 .header__link:hover{
 	transition-duration: 0.3s;
 	transition-timing-function: ease-in-out;
 	color: #D98943;
 	border-bottom: 2px solid whitesmoke;
-		}
+}

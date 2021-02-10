@@ -45,7 +45,6 @@
 	.social__link:hover{
 		transition-duration: 0.4s;
 		transition-timing-function: ease;
-		/* color: #D98943; */
 		transform: scale(1.2);		
 	}
 	.social__facebook:hover{
