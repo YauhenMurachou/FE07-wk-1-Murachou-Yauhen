@@ -34,6 +34,7 @@
 .axit__logo{
 	width: 129px;
 	height: 70px;
+	margin-bottom: 32px;
 }
 
 .axit-title-block{
@@ -54,7 +55,7 @@
 	bottom: 0;
 	height: 2px;
 	background-color: #FFFFFF;
-	margin: 32px auto 32px 0px;
+	margin: 32px auto 39px 0px;
 	display:block;
 }
 
@@ -119,7 +120,7 @@
 }
 
 .axit__username{
-	margin-bottom: 32px;
+	margin-bottom: 19px;
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 400;
@@ -130,7 +131,7 @@
 }
 
 .axit__email{
-	margin-bottom: 32px;
+	margin-bottom: 19px;
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 400;
