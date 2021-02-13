@@ -70,7 +70,9 @@
 				<div class="awesome__column">
 					<div class="item-awesome">
 						<div class="item-awesome__icon">
-							<img class="item-awesome__image" src="img/icons/left.png" alt="lamp" />
+							<div class="item-awesome__image">
+								<i class="far fa-lightbulb"></i>
+							</div>
 						</div>
 						<div class="item-awesome__title">
 							<h3>
@@ -86,7 +88,9 @@
 				<div class="awesome__column">
 					<div class="item-awesome">
 						<div class="item-awesome__icon">
-							<img class="item-awesome__image" src="img/icons/center.png" alt="buttons" />
+							<div class="item-awesome__image">
+								<i class="far fa-keyboard"></i>
+							</div>
 						</div>
 						<div class="item-awesome__title">
 							<h3>
@@ -102,7 +106,9 @@
 				<div class="awesome__column">
 					<div class="item-awesome">
 						<div class="item-awesome__icon">
-							<img class="item-awesome__image" src="img/icons/right.png" alt="lightning" />
+							<div class="item-awesome__image">
+								<i class="fas fa-bolt"></i>
+							</div>
 						</div>
 						<div class="item-awesome__title">
 							<h3>
@@ -216,8 +222,42 @@
 					target="_blank">
 					Download</a>
 			</div>
-
 	</section>
+
+	<section class="contact">
+		<div class="container">
+			<div class="contact__header">
+				<h2 class="contact__title title-block-contact">contact us</h2>
+				<div class="contact-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+				</div>
+			</div>
+			<form action="#" method="POST" class="contact__form">
+				<div class="contact__rows">
+					<div class="contact__leftrow">
+						<div class="contact__name">
+							<label for="username__contact">Name</label><br>
+							<input type="text" name="username" id="username__contact">
+						</div>
+						<div class="contact__email">
+							<label for="email__contact">Email</label><br>
+							<input type="email" name="email" id="email__contact">
+						</div>
+						<div class="contact__password">
+							<label for="email__password">Password</label><br>
+							<input type="password" name="password" id="email__password">
+						</div>
+					</div>
+					<div class="contact__rightrow">
+						<label for="message" class="message__contact__label">Message</label><br>
+						<textarea name="message" id="message__contact" maxlength="1000" cols="35"></textarea>
+					</div>
+				</div>
+				<div class="button__contact"><button type="submit" class="send__contact">Send Message</button>
+				</div>
+			</form>
+		</div>
+	</section>
+
 	<footer class="footer">
 		<div class="container">
 			<div class="footer_wrapper">
