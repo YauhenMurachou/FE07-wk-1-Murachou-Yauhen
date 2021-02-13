@@ -40,12 +40,12 @@
 .contact__form{
 	max-width: 1170px;
 	padding-bottom: 58px;
-
+	width: 100%;
 }
 
 .contact__rows{
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	margin-bottom: 68px;
 }
 
@@ -79,6 +79,7 @@
  .contact__leftrow{
 	width: 50%;
 }
+
  #username__contact, #email__contact, #password__contact{
 	width: 80%;
 	outline: none;
