@@ -79,7 +79,7 @@
  .contact__leftrow{
 	width: 50%;
 }
- #username__contact, #email__contact, #email__password{
+ #username__contact, #email__contact, #password__contact{
 	width: 80%;
 	outline: none;
 	border: 0;
@@ -119,7 +119,3 @@
 	text-align: center;
 	margin: 11px 30px;
 }
-
-/* .contact__content{
-	background: #E5E5E5;
-} */
