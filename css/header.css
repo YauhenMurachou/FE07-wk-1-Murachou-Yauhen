@@ -56,3 +56,15 @@
 	color: #D98943;
 	border-bottom: 2px solid whitesmoke;
 }
+
+@media (max-width: 576px){
+	.header__list{
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	.header__item:first-child{
+		margin-left: 48px;
+	}
+}

@@ -5,7 +5,8 @@
 }
 .social__wrapper{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
 
 .social__title{
@@ -28,6 +29,9 @@
 .social__list{
 	margin-top: 34px;
 	margin-bottom: 34px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
 	}
 .social__icons{
 	font-size: 40px;

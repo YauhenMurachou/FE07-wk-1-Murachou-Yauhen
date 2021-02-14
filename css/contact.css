@@ -45,8 +45,20 @@
 
 .contact__rows{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+	flex-wrap: wrap;
 	margin-bottom: 68px;
+}
+
+.contact__leftrow{
+	max-width: 570px;
+	width: 100%;
+}
+
+.contact__rightrow{
+	max-width: 570px;
+	width: 100%;
+	padding-left: 68px;
 }
 
 .contact__name{
@@ -75,25 +87,18 @@
 	line-height: 19px;
 	color: #BDBDBD;
 }
- 
- .contact__leftrow{
-	width: 50%;
-}
 
- #username__contact, #email__contact, #password__contact{
+#username__contact, #email__contact, #password__contact{
 	width: 80%;
 	outline: none;
 	border: 0;
 	border-bottom: 1px solid #BDBDBD;
 	background: #E5E5E5;
 	line-height: 32px;
-} 
-.contact__rightrow{
-	width: 50%;
 }
 
 #message__contact{
-	width: 80%;
+	width: 91%;
 	outline: none;
 	border: 0;
 	border-bottom: 1px solid #BDBDBD;
@@ -119,4 +124,19 @@
 	line-height: 20px;
 	text-align: center;
 	margin: 11px 30px;
+}
+
+@media (max-width: 1169px){
+	.contact__rightrow{
+		padding-left: 0px;
+		padding-top: 22px;
+}
+#message__contact{
+	width: 80%;
+}
+}
+@media (max-width: 576px){
+	.button__contact{		
+		width: 100%;
+	}
 }
