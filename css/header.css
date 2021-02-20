@@ -1,6 +1,6 @@
 .header{
 	font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
-	font-size: 15px;
+	font-size: 0.9375rem;
 	background: #000000;
 	/* position: fixed;
 	width: 100%;
@@ -28,7 +28,6 @@
 }
 
 .header__item{
-	font-size: 15px;
 	font-style: normal;
 	font-weight: 600;
 	line-height: 20px;

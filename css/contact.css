@@ -1,6 +1,6 @@
 .contact{
 	font-family: 'Open Sans', 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
-	font-size: 14px;
+	font-size: 0.875rem;
 	width: 100%;
 	background: #E5E5E5;
 }
@@ -50,7 +50,6 @@
 
 .contact__name{
 	margin-bottom: 32px;
-	font-size: 14px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: 19px;
@@ -60,7 +59,6 @@
 
 .contact__email{
 	margin-bottom: 32px;
-	font-size: 14px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: 19px;
@@ -68,7 +66,6 @@
 }
 
 .contact__password, .message__contact__label{
-	font-size: 14px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: 19px;
@@ -112,7 +109,7 @@
 	color: #FFFFFF;
 	font-style: normal;
 	font-weight: 600;
-	font-size: 15px;
+	font-size: 0.9375rem;
 	line-height: 20px;
 	text-align: center;
 	margin: 11px 30px;
