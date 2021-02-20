@@ -112,10 +112,14 @@
 	width: 166px;
 	margin: 0 auto;
 	cursor: pointer;
-	/* margin-bottom: 58px; */
 }
-
+.button__contact:hover{
+	transform:scale(1.15) ;
+   transition-duration: 0.5s;
+	box-shadow: 0 5px 28px rgba(0,0,0,0.25);
+}
 .send__contact{
+	display: inline-block;	
 	background: #EC7979;
 	color: #FFFFFF;
 	font-style: normal;
@@ -124,6 +128,7 @@
 	line-height: 20px;
 	text-align: center;
 	margin: 11px 30px;
+	cursor: pointer;
 }
 
 @media (max-width: 1169px){

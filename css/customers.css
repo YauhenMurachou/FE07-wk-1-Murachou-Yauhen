@@ -36,15 +36,12 @@
   flex-wrap: wrap; }
 
 .customers__dialog__item{
-	/* display: flex; */
 	margin: 0 15px;
 	max-width: 298px;
 }
 
 .customers__statement{
 max-width: 298px;
-/* left: 157px;
-top: 278px; */
 background: #E2E2E2;
 border-radius: 7px;
 font-family: Open Sans;
@@ -113,5 +110,13 @@ position: relative;
 	margin: 12px 0 0 35px;
 	color: #86878B;
 }
+
+
+@media (max-width: 983px){
+	.customers__dialog__item{
+		margin-bottom: 25px;
+	}
+}
+.customers__dialog__item
 
 

@@ -87,3 +87,9 @@ border-bottom: 2px solid #E5E5E5;}
 	background-color: #D98943;
     transition-duration: 0.5s;
 }
+
+@media (max-width: 1110px){
+	.pricing__list{
+		margin-bottom: 20px;
+	}
+}

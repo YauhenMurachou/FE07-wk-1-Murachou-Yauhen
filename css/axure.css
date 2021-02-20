@@ -59,6 +59,7 @@
 	text-align: center;
 	max-width: 135px;
 	border: 1px solid #FFFFFF;
+	cursor: pointer;
 }
 
 .axure__download{
@@ -69,4 +70,10 @@
 	font-weight: 600;
 	line-height: 40px;
 	letter-spacing: 0;
+}
+
+@media (max-width: 576px){
+	.axure__link{		
+		max-width: 100%;
+	}
 }
