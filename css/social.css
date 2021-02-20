@@ -1,8 +1,9 @@
 .social{
-	font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+	font-family: 'Open Sans', 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
 	font-size: 14px;
 	background: #F8EFEF;
 }
+
 .social__wrapper{
 	display: flex;
 	justify-content: space-around;
@@ -45,6 +46,7 @@
 	.social__link{
 		color: rgb(153, 149, 149);
 		display: inline-block;
+		transition-duration: 0.2s;	
 	}
 	.social__link:hover{
 		transition-duration: 0.4s;

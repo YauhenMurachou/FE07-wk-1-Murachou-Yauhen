@@ -48,6 +48,7 @@
 	transition: all 0.3s;
 	display: inline-block;
 	border-bottom: 2px solid transparent;
+	transition-duration: 0.2s;	
 }
 
 .header__link:hover{
@@ -57,7 +58,7 @@
 	border-bottom: 2px solid whitesmoke;
 }
 
-@media (max-width: 576px){
+@media (max-width: 680px){
 	.header__list{
 		display: flex;
 		align-items: center;

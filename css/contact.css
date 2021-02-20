@@ -112,6 +112,7 @@
 	width: 166px;
 	margin: 0 auto;
 	cursor: pointer;
+	transition-duration: 0.3s;
 }
 .button__contact:hover{
 	transform:scale(1.15) ;
@@ -140,6 +141,7 @@
 	width: 80%;
 }
 }
+
 @media (max-width: 576px){
 	.button__contact{		
 		width: 100%;
