@@ -1,32 +1,26 @@
 .pricing{
-    font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Open Sans', 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
     font-size: 14px;
-    background-color:#E5E5E5;}
+    background-color:#E5E5E5;
+}
 
-.title-block {
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 42px;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 80px 0px 0px 0px;
-    color: #212121;
-    font-family: Raleway, sans-serif; }
-
-.title-block:after {
-    content: '';
-    width: 64px;
-    bottom: 0;
-    height: 2px;
-    background-color: #D98943;
-    margin: 34px auto;
-    display:block;}
-
-.pricing__subtitle{
+.pricing__header{
     margin-bottom: 63px;
+}
+.pricing__title {
+    padding: 80px 0px 0px 0px;
+}
+
+.pricing__title::after{
+	background-color: #E72424;
+	margin: 34px auto;
+}
+
+.pricing__subtitle {
+    max-width: 363px;
+    margin: 0px auto;
     color: #86878B;
-    text-align: center;
-    line-height: 19px;}
+}
 
 .pricing__box{
    padding-bottom: 80px;
@@ -86,7 +80,6 @@
     border-bottom: 2px solid #E5E5E5;
     transition-duration: 0.2s;
 }
-    	
 
 .pricing__name:hover,
 .pricing__price:hover,
@@ -98,6 +91,6 @@
 
 @media (max-width: 1110px){
 	.pricing__list{
-		margin-bottom: 20px;
+		margin-bottom: 30px;
 	}
 }

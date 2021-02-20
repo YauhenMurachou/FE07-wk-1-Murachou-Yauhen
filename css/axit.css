@@ -37,7 +37,7 @@
 	margin-bottom: 32px;
 }
 
-.axit-title-block{
+.axit__title{
 	font-family: 'Raleway', 'Open Sans', 'Verdana', 'Geneva', 'Tahoma';
 	font-size: 36px;
 	font-style: normal;
@@ -49,7 +49,7 @@
 	text-transform: uppercase;
 }
 
-.axit-title-block:after {
+.axit__title:after {
 	content: '';
 	width: 64px;
 	bottom: 0;
@@ -196,7 +196,7 @@
 	.axit__leftrow, .axit-title-block, .axit__subtitle{
 		text-align: center;
 	}
-	.axit-title-block:after{
+	.axit__title:after{
 		margin: 32px auto 39px auto;
 	}
 	.axit__link{
@@ -219,11 +219,4 @@
 		padding-top: 25px;
 	}
 }
-
-/* @media (max-width: 576px){
-	.button__axit{		
-		width: 200%;
-		text-align: justify;
-	}
-} */
 
