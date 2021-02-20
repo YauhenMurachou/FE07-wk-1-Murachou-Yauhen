@@ -135,15 +135,21 @@
 @media (max-width: 1169px){
 	.contact__rightrow{
 		padding-left: 0px;
-		padding-top: 22px;
-}
-#message__contact{
-	width: 80%;
-}
+		padding-top: 32px;
+	}
+	#message__contact{
+		width: 100%;
+	}
+	#username__contact, #email__contact, #password__contact, #message__contact{
+		width: 100%;
+	} 
 }
 
 @media (max-width: 576px){
 	.button__contact{		
 		width: 100%;
+	}
+	.contact__leftrow, .contact__rightrow{
+		text-align: center;
 	}
 }

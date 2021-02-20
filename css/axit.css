@@ -187,7 +187,7 @@
 	cursor: pointer;	
 }
 
-@media (max-width: 992px){
+@media (max-width: 961px){
 	.axit__wrapper{
 		display: flex;
 		justify-content: space-around;
