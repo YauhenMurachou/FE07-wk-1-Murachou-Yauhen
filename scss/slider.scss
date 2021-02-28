@@ -48,8 +48,27 @@
 .slick-dots li button{}
 
 
+
 .slider__wrapper{
 	position: relative;
+	background-color: palevioletred;
+	.slick-dots{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.slick-dots li{
+		margin: 0 0.625rem;
+		list-style: none;		
+	}
+.slick-dots button{
+	font-size: 0;
+	width: 0.625rem;
+	height: 0.625rem;
+	background-color: #fff;
+	border-radius: 50%;
+}
+
 	.slick-arrow{
 		position: absolute;
 		top: 50%;
@@ -66,6 +85,11 @@
 	right: 0;
 	background: url('../img/Slider/right.svg') 0 0 / 100% no-repeat;
 	}
+}
+
+.slider__wrapper .slick-dots li .slick-active button{
+	background-color: transparent;
+	border: 1px solid #fff;
 }
 // .slider__item{
 // 	width: 50%;
