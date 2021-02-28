@@ -8,6 +8,27 @@ flex-direction: row;
 .faces__item {
 	border: 1px solid red;
 	margin: 0 15px;
+	.faces__img{
+		width: 100%;
+		margin-bottom: 1.5rem;
+	}
+	.faces__title{
+		font-family: 'Raleway', sans-serif;
+		font-size: 1.375rem;
+		line-height: 1.2;
+		font-weight: 400;
+		color: #2d3033;
+		margin-bottom: 0.875rem;
+	}
+	.faces__subtitle{
+		font-family: 'Raleway', sans-serif;
+		font-size: 0.8125rem;
+		line-height: 1.2;
+		font-weight: 400;
+		text-transform: uppercase;
+		color: #e84545;
+		margin-bottom: 1.5rem;
+	}
 }
 }
 @media (max-width: 834px){
@@ -16,9 +37,15 @@ flex-direction: row;
 		flex-direction: row;
 		justify-content: center;
 		.faces__item{
-			max-width: 30%;
+			max-width: 40%;
+			margin-bottom: 20px;
+					}
+	}
+}
+@media (max-width: 486px){
+	.faces__wrapper .faces__item{
+			max-width: 65%;
 			margin-bottom: 20px;
 		}
 	}
-}
 }
