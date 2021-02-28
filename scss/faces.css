@@ -8,7 +8,6 @@
   flex-direction: row;
 }
 .faces .faces__wrapper .faces__item {
-  border: 1px solid red;
   margin: 0 15px;
 }
 .faces .faces__wrapper .faces__item .faces__img {
@@ -31,6 +30,65 @@
   text-transform: uppercase;
   color: #e84545;
   margin-bottom: 1.5rem;
+}
+.faces .faces__wrapper .faces__item .faces__text {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: #6c7279;
+  margin-bottom: 1.5rem;
+}
+.faces .faces__wrapper .faces__item .faces__social-list {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+.faces .faces__wrapper .faces__item .faces__social-list .faces__social-icon {
+  text-align: center;
+  border: 1px solid #e8ecee;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 0.375rem;
+}
+.faces .faces__wrapper .faces__item .faces__social-list .faces__social-icon:first-child {
+  margin-left: 0;
+}
+.faces .faces__wrapper .faces__item .faces__social-list .faces__social-icon .faces__link {
+  color: #c6cacc;
+  display: inline-block;
+  margin: 0.625rem auto 0.625rem auto;
+  font-size: 1rem;
+  transition-duration: 0.2s;
+}
+.faces .faces__wrapper .faces__item .faces__social-list .faces__social-icon .faces__link:hover {
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  transform: scale(1.4);
+}
+.faces .faces__wrapper .faces__item .faces__social-list .faces__social-icon .faces__facebook {
+  transition-duration: 0.2s;
+}
+.faces .faces__wrapper .faces__item .faces__social-list .faces__social-icon .faces__facebook:hover {
+  color: #4267B2;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+.faces .faces__wrapper .faces__item .faces__social-list .faces__social-icon .faces__twitter {
+  transition-duration: 0.2s;
+}
+.faces .faces__wrapper .faces__item .faces__social-list .faces__social-icon .faces__twitter:hover {
+  color: #1DA1F2;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+.faces .faces__wrapper .faces__item .faces__social-list .faces__social-icon .faces__linkedin {
+  transition-duration: 0.2s;
+}
+.faces .faces__wrapper .faces__item .faces__social-list .faces__social-icon .faces__linkedin:hover {
+  color: #0e76a8;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
 }
 @media (max-width: 834px) {
   .faces .faces__wrapper {
