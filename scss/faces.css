@@ -98,12 +98,15 @@
   }
   .faces .faces__wrapper .faces__item {
     max-width: 40%;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
   }
 }
 @media (max-width: 486px) {
   .faces .faces__wrapper .faces__item {
     max-width: 65%;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
+  }
+  .faces .faces__wrapper .faces__item .faces__social-list {
+    margin-bottom: 2rem;
   }
 }

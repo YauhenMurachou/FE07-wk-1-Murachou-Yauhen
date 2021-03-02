@@ -18,6 +18,7 @@
 /* Лента слайдов */
 .slick-track {
   display: flex;
+  align-items: flex-start;
 }
 
 /* Слайд */
@@ -34,7 +35,53 @@
 /* Элемент точки */
 .slider__wrapper {
   position: relative;
-  background-color: palevioletred;
+  background-color: #53354a;
+}
+.slider__wrapper .slider__item {
+  display: flex;
+}
+.slider__wrapper .slider__img {
+  width: 50%;
+}
+.slider__wrapper .slider__title {
+  font-family: Cardo;
+  font-size: 1.75rem;
+  line-height: 2.625rem;
+  font-weight: 400;
+  font-style: italic;
+  color: #ffffff;
+  margin-left: 3rem;
+  margin-top: 6rem;
+  max-width: 31.25rem;
+}
+@media (max-width: 991px) {
+  .slider__wrapper .slider__title {
+    font-size: 1.75rem;
+    margin-top: 5rem;
+    margin-left: 2.5rem;
+  }
+  .slider__wrapper .slider__title::after {
+    font-size: 0.6rem;
+  }
+  .slider__wrapper .slider__dots {
+    margin-top: 2.2rem;
+  }
+}
+.slider__wrapper .slider__title::after {
+  content: "Susan Sims, Interaction Designer at XYZ";
+  font-style: normal;
+  font-size: 0.8125rem;
+  text-align: left;
+  margin: 1.5rem auto 0 auto;
+  font-family: "Raleway", "Open Sans", "Verdana", "Geneva", "Tahoma";
+  line-height: 1.3125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: block;
+}
+.slider__wrapper .slider__dots {
+  margin-top: 3rem;
 }
 .slider__wrapper .slick-dots {
   display: flex;
@@ -49,32 +96,48 @@
   font-size: 0;
   width: 0.625rem;
   height: 0.625rem;
-  background-color: #fff;
   border-radius: 50%;
-}
-.slider__wrapper .slick-arrow {
-  position: absolute;
-  top: 50%;
-  z-index: 2;
-  font-size: 0;
-  width: 3rem;
-  height: 3rem;
-}
-.slider__wrapper .slick-arrow.slick-prev {
-  left: 0;
-  background: url("../img/Slider/left.svg") 0 0/100% no-repeat;
-}
-.slider__wrapper .slick-arrow.slick-next {
-  right: 0;
-  background: url("../img/Slider/right.svg") 0 0/100% no-repeat;
-}
-
-.slider__wrapper .slick-dots li .slick-active button {
-  background-color: transparent;
+  background-color: #53354a;
   border: 1px solid #fff;
+  outline: none;
 }
-
-.slider__img {
-  width: 50%;
-  height: 27rem;
+.slider__wrapper .slick-dots button:hover {
+  cursor: pointer;
+  background-color: #fff;
+}
+.slider__wrapper .slick-dots button:active {
+  background-color: #fff;
+}
+.slider__wrapper .slick-dots button:visited {
+  background-color: #fff;
+}
+.slider__wrapper .slick-dots .slick-active button {
+  background-color: #fff;
+}
+@media (max-width: 884px) {
+  .slider__wrapper .slider__item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .slider__wrapper .slider__item .slider__img {
+    width: 100%;
+    display: inline-block;
+  }
+  .slider__wrapper .slider__item .slider__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .slider__wrapper .slider__item .slider__right .slider__title {
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .slider__wrapper .slider__item .slider__right .slider__title::after {
+    text-align: center;
+  }
 }
