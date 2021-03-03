@@ -1,0 +1,87 @@
+.footer {
+  font-family: "Raleway", "sans-serif";
+}
+.footer .footer__top {
+  background-color: #3a3e64;
+}
+.footer .footer__top .footer__wrapper-top {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.footer .footer__top .footer__wrapper-top .footer__item .footer__title {
+  font-size: 0.875rem;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 4.375rem;
+  text-align: center;
+}
+.footer .footer__top .footer__wrapper-top .footer__item .footer__subtitle {
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 5.5rem;
+  margin-top: 1.5rem;
+}
+.footer .footer__top .footer__wrapper-top .footer__item .footer__subtitle .footer__social-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+.footer .footer__top .footer__wrapper-top .footer__item .footer__subtitle .footer__social-list .footer__social-icon {
+  text-align: center;
+  border: 2px solid #ffffff;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 0.375rem;
+}
+.footer .footer__top .footer__wrapper-top .footer__item .footer__subtitle .footer__social-list .footer__social-icon:first-child {
+  margin-left: 0;
+}
+.footer .footer__top .footer__wrapper-top .footer__item .footer__subtitle .footer__social-list .footer__social-icon .footer__link {
+  color: #c6cacc;
+  display: inline-block;
+  margin: 0.625rem auto 0.625rem auto;
+  font-size: 1rem;
+  transition-duration: 0.2s;
+}
+.footer .footer__top .footer__wrapper-top .footer__item .footer__subtitle .footer__social-list .footer__social-icon .footer__link:hover {
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  transform: scale(1.4);
+}
+.footer .footer__top .footer__wrapper-top .footer__item .footer__subtitle .footer__social-list .footer__social-icon .footer__facebook {
+  transition-duration: 0.2s;
+}
+.footer .footer__top .footer__wrapper-top .footer__item .footer__subtitle .footer__social-list .footer__social-icon .footer__facebook:hover {
+  color: #4267B2;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+.footer .footer__top .footer__wrapper-top .footer__item .footer__subtitle .footer__social-list .footer__social-icon .footer__twitter {
+  transition-duration: 0.2s;
+}
+.footer .footer__top .footer__wrapper-top .footer__item .footer__subtitle .footer__social-list .footer__social-icon .footer__twitter:hover {
+  color: #1DA1F2;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+.footer .footer__top .footer__wrapper-top .footer__item .footer__subtitle .footer__social-list .footer__social-icon .footer__linkedin {
+  transition-duration: 0.2s;
+}
+.footer .footer__top .footer__wrapper-top .footer__item .footer__subtitle .footer__social-list .footer__social-icon .footer__linkedin:hover {
+  color: #0e76a8;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+.footer .footer__top .footer__wrapper-top .footer__item .footer__location, .footer .footer__top .footer__wrapper-top .footer__item .footer__about {
+  opacity: 0.5;
+}
+.footer .footer__bottom {
+  background-color: #313454;
+}
