@@ -29,6 +29,14 @@
 			font-weight: 600;
 			text-transform: uppercase;
 			color: #ffffff;
+			transition-duration: 0.3s;
+			transition-timing-function: ease-in;
+			&:hover{
+				transition-duration: 0.3s;
+				transform:scale(1.15);
+				transition-timing-function: ease-in;
+				box-shadow: 0 0 10px rgba(0,0,0,0.5);
+			}	
 		}
 		@media (max-width: 576px){
 			.download__link{		
@@ -36,6 +44,11 @@
 			}
 			.download__title{
 				line-height: 2rem;
-		}
+		}		
 	}
  } 
+ @media (max-width: 576px){
+	.download__wrapper{
+		margin: 3rem auto;
+	}
+}

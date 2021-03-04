@@ -140,4 +140,7 @@
   .slider__wrapper .slider__item .slider__right .slider__title::after {
     text-align: center;
   }
+  .slider__wrapper .slider__dots {
+    margin-bottom: 2.2rem;
+  }
 }
