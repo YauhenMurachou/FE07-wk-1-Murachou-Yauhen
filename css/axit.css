@@ -107,7 +107,7 @@
 	background-color: #FFFFFF;
 	max-width: 370px;	
 	border-radius: 8px;
-	width: 100%;
+	/* width: 100%; */
 }
 
 .axit__trial{
@@ -206,6 +206,9 @@
 	.axit__link{		
 		max-width: 100%;
 	}
+	.axit__form{
+		max-width: 100%;		
+	}
 	.axit__username, .axit__email, .axit__password{
 		padding-left: 24px;
 		padding-right: 24px;
@@ -220,7 +223,8 @@
 		padding-top: 3.5rem;
 	}
 	.axit__rightrow{
-		padding-top: 3.5rem;
+		padding-top: 3.5rem;	
+		width: 100%;
 	}
 	.axit{
 		padding-bottom: 3.15rem;
