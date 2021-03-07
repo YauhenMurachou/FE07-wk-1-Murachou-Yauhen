@@ -9,7 +9,7 @@
 
 .awesome__title {
   margin: 0px;
-  padding: 80px 0px 0px 0px;
+  padding: 5rem 0 0 0;
 }
 
 .awesome__title::after{
@@ -62,7 +62,8 @@
   font-weight: 700;
   line-height: 27px;
   letter-spacing: 0em;
-  color: #333333; }
+  color: #333333;
+}
 
 .item-awesome__text {
   text-align: center;
@@ -72,6 +73,18 @@
   line-height: 19px;
   letter-spacing: 0em;
   text-align: center;
-  color: #000000;}
-   
+  color: #000000;
+}
+
+@media (max-width: 946px){
+	.awesome__title {
+    padding: 4rem 0 0 0;
+  }
+}
+
+@media (max-width: 576px){
+  .awesome__title {
+    padding: 3.15rem 0 0 0;
+  }
+}
 

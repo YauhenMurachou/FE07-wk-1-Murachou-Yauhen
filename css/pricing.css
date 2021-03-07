@@ -94,3 +94,21 @@
 		margin-bottom: 30px;
 	}
 }
+
+@media (max-width: 946px){
+	.pricing__title {
+    padding: 4rem 0 0 0;
+  }
+  .pricing__box{
+    padding-bottom: 4rem;
+  }
+}
+
+@media (max-width: 576px){
+  .pricing__title {
+    padding: 3.15rem 0 0 0;
+  }
+  .pricing__box{
+    padding-bottom: 3.15rem;
+  }
+}

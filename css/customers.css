@@ -102,5 +102,31 @@ position: relative;
 	}
 }
 
+@media (max-width: 946px){
+	.customers__title {
+    padding: 4rem 0 0 0;
+  }
+  .customers__header{
+	margin-bottom: 3.5rem;
+}
+.customers__wrapper{
+	padding-bottom: 5rem;
+	}
+}
+
+@media (max-width: 576px){
+  .customers__title {
+    padding: 3.15rem 0 0 0;
+  }
+  .customers__header{
+	margin-bottom: 3rem;
+	}
+.customers__wrapper{
+	padding-bottom: 3.15rem;
+	}
+}
+
+
+
 
 
