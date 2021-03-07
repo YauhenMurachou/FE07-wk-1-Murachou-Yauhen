@@ -53,7 +53,7 @@
 .header__link:hover{
 	transition-duration: 0.3s;
 	transition-timing-function: ease-in-out;
-	color: #D98943;
+	color: #EC7979;
 	border-bottom: 2px solid whitesmoke;
 }
 
