@@ -110,7 +110,12 @@
 		justify-content: center;
 		li{
 			margin: 0 0.625rem;
-			list-style: none;		
+			list-style: none;	
+			&:active{
+				background-color: #fff;	
+				&:visited{
+					background-color: #fff;
+				}
 		}
 		button{
 			font-size: 0;
@@ -157,6 +162,7 @@
 					margin-top: 3rem;
 					margin-left: auto;
 					margin-right: auto;
+					font-family: 'Cardo',"Open Sans", "Verdana", "Geneva", "Tahoma";
 				}
 				.slider__title::after{
 					text-align: center;
@@ -187,8 +193,7 @@
 // 	background: url('../img/Slider/right.svg') 0 0 / 100% no-repeat;
 // 	}
 
-// 	.slider__item .slick-slide .slick-current .slick-active li button [aria-selected="true"]{
-// background-color: aqua;
+
 	
 
 	

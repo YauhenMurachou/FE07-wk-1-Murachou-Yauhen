@@ -60,7 +60,7 @@
   transition-duration: 0.3s;
   transform: scale(1.15);
   transition-timing-function: ease-in;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.5);
 }
 @media (max-width: 576px) {
   .template .template__link {
@@ -69,35 +69,36 @@
 }
 
 @media (max-width: 946px) {
-  .axit__wrapper {
+  .template {
+    padding-bottom: 5.5rem;
+  }
+  .template .axit__wrapper {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
   }
-
-  .axit__leftrow, .axit__title, .axit__subtitle {
+  .template .axit__leftrow, .template .axit__title, .template .axit__subtitle {
     text-align: center;
   }
-
-  .axit__title:after {
-    margin: 32px auto 39px auto;
+  .template .axit__title:after {
+    margin: 2rem auto 2.4375rem auto;
   }
-
-  .axit__link {
+  .template .axit__link {
     margin: 0 auto;
   }
 }
 @media (max-width: 576px) {
-  .axit__link {
+  .template {
+    padding-bottom: 3rem;
+  }
+  .template .axit__link {
     max-width: 100%;
   }
-
-  .axit__username, .axit__email, .axit__password {
+  .template .axit__username, .template .axit__email, .template .axit__password {
     padding-left: 24px;
     padding-right: 24px;
   }
-
-  .axit__trial {
+  .template .axit__trial {
     padding-left: 24px;
     padding-right: 24px;
     line-height: 28px;

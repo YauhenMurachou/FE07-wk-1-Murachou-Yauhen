@@ -1,8 +1,15 @@
-@import url("/scss/header__template.scss");
-@import url("/scss/header.scss");
-@import url("/scss/template.scss");
+@import url("../scss/header__template.css");
+@import url("../scss/header.css");
+@import url("../scss/template.css");
+@import url("../scss/present.css");
+@import url("../scss/portfolio.css");
+@import url("../scss/faces.css");
+@import url("../scss/slider.css");
+@import url("../scss/download.css");
+@import url("../scss/footer.css");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cardo:ital@0;1&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -61,5 +68,4 @@
     font-size: 13px;
   }
 }
-
 /*# sourceMappingURL=style.css.map */
